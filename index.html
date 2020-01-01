@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="https://github.com/Code-with-Han?tab=repositories" class="logo">Portfolio</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span>Principal Data Engineer</span></h1>
+        <p>Full-stack developer specializing in modern web applications.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="project-img">
+        <img src="Images/Profile picture.webp" alt="Profile picture" />
+      </div>
+        <div class="about-content">
+        <h2>Hana Reese</h2>
+        <p>With 5 years of experience in web development, I've worked with startups and enterprises to deliver high-quality digital products.</p>
+        <p>My approach combines technical expertise with user-centered design.</p>
+        <a href="https://github.com/Code-with-Han" class="btn">Github</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  
+<section id="skills" class="skills">
+  <div class="container">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fas fa-brain"></i> 
+        <h3>Artificial Intelligence</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Data Science</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-server"></i> 
+        <h3>Data Engineer</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-robot"></i> 
+        <h3>Machine Learning</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-python"></i> 
+        <h3>Python</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="Images/Equity picture.png" alt="Equity Profile Screenshot" />
+          </div>
+          <div class="project-content">
+            <h3>Equity Profile</h3>
+            <p>Explore Equity Insights</p>
+            <div class="project-links">
+              <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>-->
+              <a href="https://github.com/Code-with-Han/equity-profile-viewer"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="Images/Sentiment picture.jpeg" alt="Reddit Sentiment picture" />
+          </div>
+            <div class="project-content">
+            <h3>Reddit Sentiment</h3>
+            <p>Reddit Mood Monitor</p>
+            <div class="project-links">
+              <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>-->
+              <a href="https://github.com/Code-with-Han/redditsent"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="Images/Pair.jpeg" alt="Matching Pair picture" />
+          </div>
+            <div class="project-content">
+            <h3>Matching Pairs</h3>
+            <p>Mix, Match, Repeat</p>
+            <div class="project-links">
+              <!--<a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>-->
+              <a href="https://github.com/Code-with-Han/match-the-pairs"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
